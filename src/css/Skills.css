@@ -24,7 +24,7 @@ hr.style-eight {
   border-top: medium double #333;
   color: #333;
   text-align: center;
-  width: 60%;
+  width: 50%;
 }
 hr.style-eight:after {
   content: "₿";
