@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+li {
+  list-style: none;
+  font-family: "Lato";
+}
+
+.text-contain {
+  text-align: center;
+  width: 100%;
+  color: black
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(126, 162, 241);
+}
