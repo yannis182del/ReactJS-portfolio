@@ -1,0 +1,11 @@
+.li-element {
+  margin: 10px 160px 10px 20px;
+}
+
+.li-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-right: 10px;
+
+}
