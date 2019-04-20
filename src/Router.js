@@ -2,15 +2,14 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import About from "./Router Component/About";
 import Skills from "./Router Component/Skills";
+import Projects from "./Router Component/Projects";
 import "./css/Router.css";
 
 function Contact() {
   return <h2 className="text-contain">Find me</h2>;
 }
 
-function Projects() {
-  return <h2 className="text-contain">Projects</h2>;
-}
+
 
 function AppRouter() {
   return (
@@ -25,7 +24,7 @@ function AppRouter() {
             </li>
             <li>
               <h4>
-                <Link to="/about/">Skills</Link>
+                <Link to="/skills/">Skills</Link>
               </h4>
             </li>
             <li>
@@ -42,8 +41,8 @@ function AppRouter() {
         </nav>
 
         <Route path="/" exact component={About} />
-        <Route path="/about/" component={Skills} />
-        <Route path="/skills/" component={Projects} />
+        <Route path="/skills/" component={Skills} />
+        <Route path="/projects/" component={Projects} />
         <Route path="/users/" component={Contact} />
       </div>
     </Router>

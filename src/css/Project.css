@@ -1,0 +1,32 @@
+.li-element {
+margin: 2px;
+padding: 20px 20px 0 20px;
+}
+
+.li-container {
+ text-align: center;
+ border-bottom: 1px solid rgb(233, 233, 233);
+ padding: 20px;
+ margin: 0px;
+}
+
+h3 {
+  color: rgb(126, 162, 241);
+}
+
+.link-project {
+  color: rgb(126, 162, 241);
+}
+
+.link-project:hover {
+  color: rgb(53, 52, 52);
+  font-size: 1.2em;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  .li-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,23 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 body {
-  margin: 0px 0px 40px
+  margin: 0px 0px 10px;
 }
 
 .Header-container {
   text-align: center;
-  border: 1px solid rgb(194, 194, 194);
-  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(68, 67, 67);
+  background-color: rgb(17, 17, 17);
   
 }
 
 h1 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
+  color: white;
 }
 
 h2 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  color: rgb(150, 149, 149)
+  color: white
 }
