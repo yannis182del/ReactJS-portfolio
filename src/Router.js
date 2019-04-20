@@ -24,7 +24,7 @@ function AppRouter() {
             </li>
             <li>
               <h4>
-                <Link to="/about/">Skills</Link>
+                <Link to="/skills/">Skills</Link>
               </h4>
             </li>
             <li>
@@ -41,7 +41,7 @@ function AppRouter() {
         </nav>
 
         <Route path="/" exact component={About} />
-        <Route path="/about/" component={Skills} />
+        <Route path="/skills/" component={Skills} />
         <Route path="/projects/" component={Projects} />
         <Route path="/users/" component={Contact} />
       </div>

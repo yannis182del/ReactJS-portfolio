@@ -4,23 +4,51 @@ import "../css/Project.css";
 const Projects = () => {
   return (
     <div>
+      <hr className="style-eight" />
       <ul className="li-element">
         <li>
           <div className="li-container">
-            <img
-              className="li-img"
-              src="https://i.ibb.co/VLT89dn/Capture-d-e-cran-2019-04-20-a-14-38-30.png"
-              height="200"
-              width="300"
-              alt="Logo"
-            />
+            <a href="https://offchainmarketcap.netlify.com/">
+              {" "}
+              <h3>OffChain Market Cap</h3>{" "}
+            </a>
             <p className="li-p">
-              Offchain Market cap is a project that i did during my coding
-              bootcamp.
-              <p>
-                It's a website where you can check the latest prices of Proof of
-                work and Proof of stake crypto currencys
-              </p>
+              OffChain Market Cap is a website that i did during one of my hack
+              day at the coding bootcamp.
+            </p>
+            <p>
+              I did it with pure Javascript and refactored it with React for
+              practice.
+            </p>
+            <p>
+              Check it out:
+              <a
+                className="link-project"
+                href="https://offchainmarketcap.netlify.com/"
+              >
+                {" "}
+                Here
+              </a>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div className="li-container">
+            <a href="https://devtodo.netlify.com/">
+              {" "}
+              <h3>Pure JS to-do App</h3>{" "}
+            </a>
+            <p className="li-p">
+              A simple to-do app that i did with pure Javascript for an
+              assignment at the coding Bootcamp
+            </p>
+            <p>It includes Local storage.</p>
+            <p>
+              Check it out:
+              <a className="link-project" href="https://devtodo.netlify.com/">
+                {" "}
+                Here
+              </a>
             </p>
           </div>
         </li>
