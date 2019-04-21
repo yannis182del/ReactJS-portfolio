@@ -12,8 +12,8 @@ body {
 }
 
 a {
-  position:relative;
-    z-index:9999;
+  position: relative;
+  z-index: 9999;
 }
 
 h1 {
@@ -32,23 +32,15 @@ h2 {
   position: absolute;
   z-index: 0;
   right: 100px;
-  bottom: 500px;
+  bottom: 100px;
   left: 0;
 }
 
-/* .particles-mobiles {
-  display: none
-} */
 
 @media (min-width: 200px) and (max-width: 800px) {
   .particles {
-    position: absolute;
-    z-index: 0;
-    right: 20px;
-    bottom: 500px;
-    left: 0;
+  display: none
   }
-
 }
 
 @media only screen and (min-width: 1370px) {
@@ -60,5 +52,3 @@ h2 {
     left: 0;
   }
 }
-
-
