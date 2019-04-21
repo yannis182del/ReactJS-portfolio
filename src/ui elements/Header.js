@@ -15,7 +15,7 @@ const Header = () => {
     params={{
       "particles": {
           "number": {
-              "value": 55
+              "value": 65
           },
           "size": {
               "value": 3
