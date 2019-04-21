@@ -27,7 +27,7 @@ h2 {
   position: absolute;
   z-index: 0;
   right: 100px;
-  bottom: 400px;
+  bottom: 500px;
   left: 0;
 }
 
@@ -36,5 +36,3 @@ h2 {
     display: none;
   }
 }
-
-
