@@ -14,7 +14,7 @@ const Header = () => {
     params={{
       "particles": {
           "number": {
-              "value": 100
+              "value": 55
           },
           "size": {
               "value": 3
@@ -29,6 +29,8 @@ const Header = () => {
           }
       }
   }} />
+
+
         <div className="Picture-container">
           <img
             className="My-picture"
@@ -44,3 +46,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
