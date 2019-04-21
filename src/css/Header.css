@@ -32,7 +32,7 @@ h2 {
   position: absolute;
   z-index: 0;
   right: 100px;
-  bottom: 100px;
+  bottom: 250px;
   left: 0;
 }
 
@@ -48,7 +48,7 @@ h2 {
     position: absolute;
     z-index: 0;
     right: 100px;
-    bottom: 1500px;
+    bottom: 250px;
     left: 0;
   }
 }
