@@ -9,10 +9,7 @@ body {
   border: 1px solid rgb(218, 213, 213);
   background-color: rgb(81, 135, 253);
   z-index: 1;
-  
 }
-
-
 
 h1 {
   font-family: "Lato", sans-serif;
@@ -35,27 +32,17 @@ h2 {
 }
 
 @media (min-width: 200px) and (max-width: 800px) {
-  .Header-container {
-    text-align: center;
-    border: 1px solid rgb(218, 213, 213);
-    background-color: rgb(27, 26, 26);
-    z-index: 1;
-    
-  }
   .particles {
     display: none;
   }
 }
 
-@media only screen   
-and (min-width: 1370px)  
- 
-{  .particles {
-  position: absolute;
-  z-index: 0;
-  right: 100px;
-  bottom: 1500px;
-  left: 0;
-}} 
-
-
+@media only screen and (min-width: 1370px) {
+  .particles {
+    position: absolute;
+    z-index: 0;
+    right: 100px;
+    bottom: 1500px;
+    left: 0;
+  }
+}
