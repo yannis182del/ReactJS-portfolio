@@ -1,7 +1,7 @@
 .li-element {
 margin: 2px;
 padding: 0px 20px 0 20px;
-font-size: 1.4em;
+font-size: 1.2em;
 }
 
 
@@ -14,11 +14,11 @@ font-size: 1.4em;
 }
 
 h3 {
-  color: rgb(126, 162, 241);
+  color: rgb(81, 135, 253);
 }
 
 .link-project {
-  color: rgb(126, 162, 241);
+  color:rgb(81, 135, 253);
 }
 
 .link-project:hover {

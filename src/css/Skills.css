@@ -1,7 +1,7 @@
 .project-container {
   display: flex;
   justify-content: space-evenly;
-  font-size: 1.4em
+  font-size: 1.2em
 }
 
 @media (min-width: 200px) and (max-width: 767px) {
@@ -15,7 +15,7 @@
 .other-skills-p,
 .backend-p,
 .front-end-p {
-  color: rgb(126, 162, 241);
+  color:rgb(81, 135, 253);
 }
 
 hr.style-eight {

@@ -6,8 +6,8 @@ body {
 
 .Header-container {
   text-align: center;
-  border: 1px solid rgb(68, 67, 67);
-  background-color: rgb(17, 17, 17);
+  border: 1px solid rgb(218, 213, 213);
+  background-color: rgb(81, 135, 253);
   z-index: 1;
 }
 
@@ -34,5 +34,15 @@ h2 {
 @media (min-width: 200px) and (max-width: 800px) {
   .particles {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1370px) {
+  .particles {
+    position: absolute;
+    z-index: 0;
+    right: 100px;
+    bottom: 1500px;
+    left: 0;
   }
 }
