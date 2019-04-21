@@ -8,6 +8,7 @@ import "./css/Router.css";
 function AppRouter() {
   return (
     <Router>
+       
       <div>
         <nav>
           <ul className="topnav">
@@ -28,10 +29,13 @@ function AppRouter() {
             </li>
           </ul>
         </nav>
-
+     
+      
         <Route path="/" exact component={About} />
         <Route path="/skills/" component={Skills} />
         <Route path="/projects/" component={Projects} />
+       
+     
       </div>
     </Router>
   );
