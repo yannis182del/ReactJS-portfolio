@@ -11,6 +11,7 @@ const Header = () => {
       <div>
         <Particles
         className="particles"
+        height="500px"
     params={{
       "particles": {
           "number": {
