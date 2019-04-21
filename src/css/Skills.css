@@ -27,6 +27,7 @@ hr.style-eight {
   text-align: center;
   width: 50%;
 }
+
 hr.style-eight:after {
   content: "₿";
   display: inline-block;

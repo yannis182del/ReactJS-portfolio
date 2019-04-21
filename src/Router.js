@@ -3,13 +3,16 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import About from "./Router Component/About";
 import Skills from "./Router Component/Skills";
 import Projects from "./Router Component/Projects";
+import { Spring, config } from 'react-spring/renderprops'
 import "./css/Router.css";
 
 function AppRouter() {
   return (
     <Router>
-       
       <div>
+      <Spring from={{ number: 0 }} to={{ number: 100 }} config={config.slow}>
+      {props => (
+        <div style={{ width: props.number + "%" }}>
         <nav>
           <ul className="topnav">
             <li>
@@ -29,13 +32,13 @@ function AppRouter() {
             </li>
           </ul>
         </nav>
-     
-      
+      </div>
+      )}
+    </Spring>
+
         <Route path="/" exact component={About} />
         <Route path="/skills/" component={Skills} />
         <Route path="/projects/" component={Projects} />
-       
-     
       </div>
     </Router>
   );
