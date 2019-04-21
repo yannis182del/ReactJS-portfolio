@@ -1,12 +1,13 @@
 .li-element {
 margin: 2px;
-padding: 20px 20px 0 20px;
+padding: 0px 20px 0 20px;
+font-size: 1.4em;
 }
 
 .li-container {
  text-align: center;
- border-bottom: 1px solid rgb(233, 233, 233);
- padding: 20px;
+ border-bottom: 1px solid rgb(255, 254, 254);
+ padding: 0 20 0 20px;
  margin: 0px;
 }
 
@@ -29,4 +30,9 @@ h3 {
     flex-direction: column;
     text-align: center;
   }
+}
+
+.project-container {
+  margin-top: 0px;
+ 
 }

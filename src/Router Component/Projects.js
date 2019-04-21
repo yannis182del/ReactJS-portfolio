@@ -3,7 +3,7 @@ import "../css/Project.css";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="project-containter">
       <hr className="style-eight" />
       <ul className="li-element">
         <li>
