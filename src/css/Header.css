@@ -11,6 +11,11 @@ body {
   z-index: 1;
 }
 
+a {
+  position:relative;
+    z-index:9999;
+}
+
 h1 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -31,10 +36,19 @@ h2 {
   left: 0;
 }
 
+/* .particles-mobiles {
+  display: none
+} */
+
 @media (min-width: 200px) and (max-width: 800px) {
   .particles {
-    display: none;
+    position: absolute;
+    z-index: 0;
+    right: 20px;
+    bottom: 500px;
+    left: 0;
   }
+
 }
 
 @media only screen and (min-width: 1370px) {
