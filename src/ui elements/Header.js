@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Header.css";
 import Particles from 'react-particles-js'
+import Footer from "./Footer"
 
 
 
@@ -15,10 +16,10 @@ const Header = () => {
     params={{
       "particles": {
           "number": {
-              "value": 65
+              "value": 95
           },
           "size": {
-              "value": 3
+              "value": 1
           }
       },
       "interactivity": {
@@ -35,13 +36,14 @@ const Header = () => {
         <div className="Picture-container">
           <img
             className="My-picture"
-            src="https://i.ibb.co/8Y2PLFN/IMG-3961.jpg"
+            src="https://i.ibb.co/Z1tmK2m/11206067-848741575218684-6253609628058067417-n.jpg"
             alt="Logo"
           />
         </div>
         <h1>Yannis Bouacida</h1>
         <h2>Software developer</h2>
       </div>
+      
     </div>
   );
 };
@@ -49,3 +51,4 @@ const Header = () => {
 export default Header;
 
 
+{/* <a href="https://ibb.co/1Jh6Kz6"><img src="https://i.ibb.co/Z1tmK2m/11206067-848741575218684-6253609628058067417-n.jpg" alt="11206067-848741575218684-6253609628058067417-n" border="0"></a> */}
