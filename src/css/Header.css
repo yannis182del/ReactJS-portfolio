@@ -36,10 +36,9 @@ h2 {
   left: 0;
 }
 
-
 @media (min-width: 200px) and (max-width: 800px) {
   .particles {
-  display: none
+    display: none;
   }
 }
 
