@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import About from "./Router Component/About";
 import Skills from "./Router Component/Skills";
 import Projects from "./Router Component/Projects";
-
 import { Spring, config } from "react-spring/renderprops";
 import "./css/Router.css";
 
