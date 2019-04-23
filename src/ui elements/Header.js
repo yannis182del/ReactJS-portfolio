@@ -23,7 +23,7 @@ class Header extends React.Component {
           params={{
             particles: {
               number: {
-                value: 60
+                value: 90
               },
               size: {
                 value: 1
