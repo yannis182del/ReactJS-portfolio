@@ -1,0 +1,25 @@
+.skills {
+  border: 0.7px solid rgb(126, 165, 247);
+  margin: 8px 10px 0px 0px;
+  padding: 7px 18px;
+  border-radius: 10px;
+  font-size: 0.5em;
+  color: grey;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skills-noDev {
+  border: 0.7px solid rgb(193, 45, 230);
+  margin: 8px 10px 0px 0px;
+  padding: 7px 18px;
+  border-radius: 10px;
+  font-size: 0.5em;
+  color: grey;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skills-container {
+  margin-bottom: 20px;
+}

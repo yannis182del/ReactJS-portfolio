@@ -1,6 +1,6 @@
 import React from "react";
+import SkillsElement from "../ui elements/SkillsElements";
 import "../css/Project.css";
-
 
 const Projects = () => {
   return (
@@ -13,6 +13,12 @@ const Projects = () => {
               {" "}
               <h3>OffChain Market Cap</h3>{" "}
             </a>
+            <div className="skills-container">
+              <SkillsElement className="skills" skills="ReactJS" />
+              <SkillsElement className="skills" skills="CSS" />
+              <SkillsElement className="skills-noDev" skills="AdobeXd" />
+              <SkillsElement className="skills" skills="HTML" />
+            </div>
             <p className="li-p">
               OffChain Market Cap is a website that i did during one of my hack
               day at the coding bootcamp.
@@ -39,6 +45,12 @@ const Projects = () => {
               {" "}
               <h3>Pure JS to-do App</h3>{" "}
             </a>
+            <div className="skills-container">
+              <SkillsElement className="skills" skills="ReactJS" />
+              <SkillsElement className="skills" skills="CSS" />
+              <SkillsElement className="skills" skills="HTML" />
+              <SkillsElement className="skills-noDev" skills="AdobeXd" />
+            </div>
             <p className="li-p">
               A simple to-do app that i did with pure Javascript for an
               assignment at the coding Bootcamp
