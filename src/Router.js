@@ -35,7 +35,6 @@ function AppRouter() {
             </div>
           )}
         </Spring>
-
         <Route path="/" exact component={About} />
         <Route path="/skills/" component={Skills} />
         <Route path="/projects/" component={Projects} />
