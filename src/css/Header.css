@@ -4,10 +4,17 @@ body {
   margin: 0px 0px 10px;
 }
 
-.Header-container {
+.Header-container_blue {
   text-align: center;
   border: 1px solid rgb(218, 213, 213);
   background-color: rgb(81, 135, 253);
+  z-index: 1;
+}
+
+.Header-container_black {
+  text-align: center;
+  border: 1px solid rgb(218, 213, 213);
+  background-color: rgb(36, 34, 35);
   z-index: 1;
 }
 

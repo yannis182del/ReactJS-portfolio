@@ -3,7 +3,8 @@
   height: 200px;
   border-radius: 50%;
   margin: 40px 0 10px 0;
-  z-index: 2;
+  z-index: 9999;
+  cursor: pointer;
 }
 
 .Picture-container {
