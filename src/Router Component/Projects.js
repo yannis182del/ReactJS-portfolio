@@ -9,42 +9,34 @@ const Projects = () => {
       <ul className="li-element">
         <li>
           <div className="li-container">
-            <a href="Hashdrops.io/">
+            <a href="https://onchainjobs.io/">
               {" "}
-              <h3>Hashdrops.io (In Progress)</h3>{" "}
+              <h3>On Chain Jobs (In Progress)</h3>{" "}
             </a>
             <div className="skills-container">
               <SkillsElement className="skills" skills="ReactJS" />
               <SkillsElement className="skills" skills="NodeJS" />
               <SkillsElement className="skills" skills="Express" />
-              <SkillsElement className="skills-noDev" skills="AdobeXD" />
+              <SkillsElement className="skills-noDev" skills="Figma" />
             </div>
             <p className="li-p">
-              Hashdrops.io is a website to earn free crypto-currencies via
-              Airdrop and bounty's.
-            </p>
-            <p>
-              The goal of Hashdrops is to help people's discover new ico's and
-              interesting crypto projects
+              On Chain Jobs is a website that let you find a job in the
+              blockchain industry
             </p>
             <p>
               Check it out:
-              <a
-                className="link-project"
-                href="https://offchainmarketcap.netlify.com/"
-              >
+              <a className="link-project" href="https://onchainjobs.io/">
                 {" "}
                 Here
               </a>
             </p>
           </div>
         </li>
-
         <li>
           <div className="li-container">
-            <a href="https://offchainmarketcap.netlify.com/">
+            <a href="https://hashdrops.io/">
               {" "}
-              <h3>OffChain Market Cap</h3>{" "}
+              <h3>Hashdrops Market Cap</h3>{" "}
             </a>
             <div className="skills-container">
               <SkillsElement className="skills" skills="ReactJS" />
@@ -53,8 +45,8 @@ const Projects = () => {
               <SkillsElement className="skills" skills="HTML" />
             </div>
             <p className="li-p">
-              OffChain Market Cap is a website that i did during one of my hack
-              day at the coding bootcamp.
+              Hashdrops is a website that i did during one of my hack day at the
+              coding bootcamp.
             </p>
             <p>
               I did it with pure Javascript and refactored it with React for
@@ -62,10 +54,7 @@ const Projects = () => {
             </p>
             <p>
               Check it out:
-              <a
-                className="link-project"
-                href="https://offchainmarketcap.netlify.com/"
-              >
+              <a className="link-project" href="https://hashdrops.io/">
                 {" "}
                 Here
               </a>
