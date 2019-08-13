@@ -7,6 +7,29 @@ const Projects = () => {
     <div className="project-containter">
       <hr className="style-eight" />
       <ul className="li-element">
+      <li>
+          <div className="li-container">
+            <a href="https://leprixdubitcoin.com/">
+              {" "}
+              <h3>Le Prix Du Bitcoin</h3>{" "}
+            </a>
+            <div className="skills-container">
+              <SkillsElement className="skills" skills="ReactJS" />
+              <SkillsElement className="skills" skills="Pure CSS" />
+              <SkillsElement className="skills-noDev" skills="React Hooks" />
+            </div>
+            <p className="li-p">
+              Displaying Bitcoin's data such as prices, numbers of github forks, and countdown to the new halving using React hooks to fetch data
+            </p>
+            <p>
+              Check it out:
+              <a className="link-project" href="https://leprixdubitcoin.com/">
+                {" "}
+                Here
+              </a>
+            </p>
+          </div>
+        </li>
         <li>
           <div className="li-container">
             <a href="https://onchainjobs.io/">
@@ -17,7 +40,7 @@ const Projects = () => {
               <SkillsElement className="skills" skills="ReactJS" />
               <SkillsElement className="skills" skills="NodeJS" />
               <SkillsElement className="skills" skills="Express" />
-              <SkillsElement className="skills-noDev" skills="Figma" />
+              <SkillsElement className="skills" skills="Figma" />
             </div>
             <p className="li-p">
               On Chain Jobs is a website that let you find a job in the
@@ -34,7 +57,7 @@ const Projects = () => {
         </li>
         <li>
           <div className="li-container">
-            <a href="https://hashdrops.io/">
+            <a href="https://offchainmarketcap.netlify.com/">
               {" "}
               <h3>Hashdrops Market Cap</h3>{" "}
             </a>
@@ -54,7 +77,7 @@ const Projects = () => {
             </p>
             <p>
               Check it out:
-              <a className="link-project" href="https://hashdrops.io/">
+              <a className="link-project" href="https://offchainmarketcap.netlify.com/">
                 {" "}
                 Here
               </a>
