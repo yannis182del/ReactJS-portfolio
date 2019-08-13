@@ -7,25 +7,23 @@ const Projects = () => {
     <div className="project-containter">
       <hr className="style-eight" />
       <ul className="li-element">
-        <li>
+      <li>
           <div className="li-container">
-            <a href="https://onchainjobs.io/">
+            <a target="_blank" href="https://leprixdubitcoin.com/">
               {" "}
-              <h3>On Chain Jobs (In Progress)</h3>{" "}
+              <h3>Le Prix Du Bitcoin</h3>{" "}
             </a>
             <div className="skills-container">
               <SkillsElement className="skills" skills="ReactJS" />
-              <SkillsElement className="skills" skills="NodeJS" />
-              <SkillsElement className="skills" skills="Express" />
-              <SkillsElement className="skills-noDev" skills="Figma" />
+              <SkillsElement className="skills" skills="Pure CSS" />
+              <SkillsElement className="skills-noDev" skills="React Hooks" />
             </div>
             <p className="li-p">
-              On Chain Jobs is a website that let you find a job in the
-              blockchain industry
+              Displaying Bitcoin's data such as prices, numbers of github forks, and countdown to the new halving using React hooks to fetch data
             </p>
             <p>
               Check it out:
-              <a className="link-project" href="https://onchainjobs.io/">
+              <a target="_blank" className="link-project" href="https://leprixdubitcoin.com/">
                 {" "}
                 Here
               </a>
@@ -34,7 +32,32 @@ const Projects = () => {
         </li>
         <li>
           <div className="li-container">
-            <a href="https://hashdrops.io/">
+            <a target="_blank" href="https://onchainjobs.io/">
+              {" "}
+              <h3>On Chain Jobs (In Progress)</h3>{" "}
+            </a>
+            <div className="skills-container">
+              <SkillsElement className="skills" skills="ReactJS" />
+              <SkillsElement className="skills" skills="NodeJS" />
+              <SkillsElement className="skills" skills="Express" />
+              <SkillsElement className="skills" skills="Figma" />
+            </div>
+            <p className="li-p">
+              On Chain Jobs is a website that let you find a job in the
+              blockchain industry
+            </p>
+            <p>
+              Check it out:
+              <a target="_blank" className="link-project" href="https://onchainjobs.io/">
+                {" "}
+                Here
+              </a>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div className="li-container">
+            <a target="_blank" href="https://offchainmarketcap.netlify.com/">
               {" "}
               <h3>Hashdrops Market Cap</h3>{" "}
             </a>
@@ -54,7 +77,7 @@ const Projects = () => {
             </p>
             <p>
               Check it out:
-              <a className="link-project" href="https://hashdrops.io/">
+              <a target="_blank" className="link-project" href="https://offchainmarketcap.netlify.com/">
                 {" "}
                 Here
               </a>
@@ -63,7 +86,7 @@ const Projects = () => {
         </li>
         <li>
           <div className="li-container">
-            <a href="https://devtodo.netlify.com/">
+            <a  target="_blank" href="https://devtodo.netlify.com/">
               {" "}
               <h3>Pure JS to-do App</h3>{" "}
             </a>
@@ -80,7 +103,7 @@ const Projects = () => {
             <p>It includes Local storage.</p>
             <p>
               Check it out:
-              <a className="link-project" href="https://devtodo.netlify.com/">
+              <a target="_blank" className="link-project" href="https://devtodo.netlify.com/">
                 {" "}
                 Here
               </a>
