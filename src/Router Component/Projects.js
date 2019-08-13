@@ -9,7 +9,7 @@ const Projects = () => {
       <ul className="li-element">
       <li>
           <div className="li-container">
-            <a href="https://leprixdubitcoin.com/">
+            <a target="_blank" href="https://leprixdubitcoin.com/">
               {" "}
               <h3>Le Prix Du Bitcoin</h3>{" "}
             </a>
@@ -23,7 +23,7 @@ const Projects = () => {
             </p>
             <p>
               Check it out:
-              <a className="link-project" href="https://leprixdubitcoin.com/">
+              <a target="_blank" className="link-project" href="https://leprixdubitcoin.com/">
                 {" "}
                 Here
               </a>
@@ -32,7 +32,7 @@ const Projects = () => {
         </li>
         <li>
           <div className="li-container">
-            <a href="https://onchainjobs.io/">
+            <a target="_blank" href="https://onchainjobs.io/">
               {" "}
               <h3>On Chain Jobs (In Progress)</h3>{" "}
             </a>
@@ -48,7 +48,7 @@ const Projects = () => {
             </p>
             <p>
               Check it out:
-              <a className="link-project" href="https://onchainjobs.io/">
+              <a target="_blank" className="link-project" href="https://onchainjobs.io/">
                 {" "}
                 Here
               </a>
@@ -57,7 +57,7 @@ const Projects = () => {
         </li>
         <li>
           <div className="li-container">
-            <a href="https://offchainmarketcap.netlify.com/">
+            <a target="_blank" href="https://offchainmarketcap.netlify.com/">
               {" "}
               <h3>Hashdrops Market Cap</h3>{" "}
             </a>
@@ -77,7 +77,7 @@ const Projects = () => {
             </p>
             <p>
               Check it out:
-              <a className="link-project" href="https://offchainmarketcap.netlify.com/">
+              <a target="_blank" className="link-project" href="https://offchainmarketcap.netlify.com/">
                 {" "}
                 Here
               </a>
@@ -86,7 +86,7 @@ const Projects = () => {
         </li>
         <li>
           <div className="li-container">
-            <a href="https://devtodo.netlify.com/">
+            <a  target="_blank" href="https://devtodo.netlify.com/">
               {" "}
               <h3>Pure JS to-do App</h3>{" "}
             </a>
@@ -103,7 +103,7 @@ const Projects = () => {
             <p>It includes Local storage.</p>
             <p>
               Check it out:
-              <a className="link-project" href="https://devtodo.netlify.com/">
+              <a target="_blank" className="link-project" href="https://devtodo.netlify.com/">
                 {" "}
                 Here
               </a>
