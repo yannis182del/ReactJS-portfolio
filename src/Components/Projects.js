@@ -19,6 +19,11 @@ const CardContainer = styled.div`
   gap: 4rem;
   width: 100%;
   height: 100%;
+  @media (max-width: 600px) {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 `;
 
 const Column = styled.div`
