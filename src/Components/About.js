@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from '../ui elements/Footer'
 import "../css/About.css";
 
 const About = () => {
@@ -23,6 +24,7 @@ const About = () => {
           January 2014.
         </p>
       </div>
+      <Footer />
     </div>
   );
 };
