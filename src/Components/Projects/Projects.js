@@ -1,54 +1,18 @@
 import React, { useEffect, useState } from "react";
-import "../css/Project.css";
 import axios from "axios";
-import styled from "styled-components";
-import Star from "../Components/common/Icons/Star";
-import Fork from "../Components/common/Icons/Fork";
+import Star from "../common/Icons/Star";
+import Fork from "../common/Icons/Fork";
+import "../../css/Project.css";
 
-const Container = styled.div`
-  width: 80%;
-  margin: auto;
-`;
-
-const CardContainer = styled.div`
-  display: grid;
-  -webkit-box-align: center;
-  align-items: center;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  gap: 4rem;
-  width: 100%;
-  height: 100%;
-`;
-
-const Column = styled.div`
-  width: 100%;
-  padding: 8px 8px;
-  float: left;
-`;
-
-const Row = styled.div`
-  display: row;
-`;
-
-const MainCard = styled.div`
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 1rem;
-  text-align: center;
-  background-color: white;
-`;
-
-const ElementsDiv = styled.div`
-  display: flex;
-  width: 15%;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-evenly;
-`;
-
-const Description = styled.p`
-  color: rgb(112, 112, 112);
-`;
+import {
+  Container,
+  CardContainer,
+  Column,
+  Row,
+  MainCard,
+  ElementsDiv,
+  Description,
+} from "./style";
 
 const Card = ({ repo, stars, forks, description, url }) => {
   return (

@@ -6,9 +6,8 @@ body {
 
 .Header-container_blue {
   text-align: center;
-  border: 1px solid rgb(218, 213, 213);
   background-color: rgb(81, 135, 253);
-  z-index: 1;
+  padding-bottom: 5px;
   -webkit-transition: background-color 4s ease-out;
   -moz-transition: background-color 4s ease-out;
   -o-transition: background-color 4s ease-out;
@@ -17,18 +16,12 @@ body {
 
 .Header-container_black {
   text-align: center;
-  border: 1px solid rgb(218, 213, 213);
   background-color: rgb(27, 26, 27);
-  z-index: 1;
+  padding-bottom: 5px;
   -webkit-transition: background-color 4s ease-out;
   -moz-transition: background-color 4s ease-out;
   -o-transition: background-color 4s ease-out;
   transition: background-color 4s ease-out;
-}
-
-a {
-  position: relative;
-  z-index: 9999;
 }
 
 h1 {
@@ -41,28 +34,4 @@ h2 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: white;
-}
-
-.particles {
-  position: absolute;
-  z-index: 0;
-  right: 100px;
-  bottom: 300px;
-  left: 0;
-}
-
-@media (min-width: 200px) and (max-width: 800px) {
-  .particles {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 1370px) {
-  .particles {
-    position: absolute;
-    z-index: 0;
-    right: 100px;
-    bottom: 250px;
-    left: 0;
-  }
 }
