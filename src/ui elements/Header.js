@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/Header.css";
-import Particles from "react-particles-js";
 
 class Header extends React.Component {
   state = {
@@ -23,29 +22,6 @@ class Header extends React.Component {
         }
       >
         <div>
-          <Particles
-            className="particles"
-            height="500px"
-            params={{
-              particles: {
-                number: {
-                  value: 90
-                },
-                size: {
-                  value: 1
-                }
-              },
-              interactivity: {
-                events: {
-                  onhover: {
-                    enable: true,
-                    mode: "repulse"
-                  }
-                }
-              }
-            }}
-          />
-
           <div className={"Picture-container"}>
             <img
               onClick={this.switchBackground}
