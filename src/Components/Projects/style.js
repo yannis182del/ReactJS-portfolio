@@ -49,3 +49,7 @@ export const ElementsDiv = styled.div`
 export const Description = styled.p`
   color: rgb(112, 112, 112);
 `;
+
+export const Title = styled.h3`
+  color: rgb(81, 135, 253);
+`;

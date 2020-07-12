@@ -12,6 +12,7 @@ import {
   MainCard,
   ElementsDiv,
   Description,
+  Title,
 } from "./style";
 
 const Card = ({ repo, stars, forks, description, url }) => {
@@ -20,10 +21,8 @@ const Card = ({ repo, stars, forks, description, url }) => {
       <Column>
         <MainCard>
           <a target="_blank" rel="noopener noreferrer" href={url}>
-            {" "}
-            <h3>{repo}</h3>
+            <Title>{repo}</Title>
           </a>
-
           <Description>{description}</Description>
           <div style={{ display: "flex" }}>
             <ElementsDiv>
@@ -45,10 +44,9 @@ const Projects = () => {
   const [github, setGitHub] = useState([]);
 
   async function getUser() {
+    const url = "https://api.github.com/users/etherean06/repos ";
     try {
-      const response = await axios.get(
-        "https://api.github.com/users/etherean06/repos "
-      );
+      const response = await axios.get(url);
       setGitHub(response.data);
     } catch (error) {
       console.error(error);
@@ -61,7 +59,6 @@ const Projects = () => {
   return (
     <Container>
       <CardContainer>
-        {console.log(github)}
         {github
           .filter((data) => !data.fork)
           .map((data) => (
