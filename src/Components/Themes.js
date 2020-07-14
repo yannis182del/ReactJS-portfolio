@@ -13,4 +13,6 @@ export const darkTheme = {
   background: "#999",
   header: "#444444",
   anchor: "#FAFAFA",
+  hr: "none",
+  cardBackground: "#444444",
 };

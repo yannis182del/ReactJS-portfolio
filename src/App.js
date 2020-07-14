@@ -7,7 +7,6 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./Components/GlobalStyle";
 import { lightTheme, darkTheme } from "./Components/Themes";
 import { useDarkMode } from "./hooks/useDarkMode";
-import Toggle from "./Components/Toggler";
 
 const App = () => {
   const [theme, themeToggler] = useDarkMode();
@@ -18,8 +17,7 @@ const App = () => {
     <ThemeProvider theme={themeMode}>
       <GlobalStyles />
       <div>
-      <Toggle theme={theme} toggleTheme={themeToggler} />
-        <Header />
+        <Header theme={theme} themeToggler={themeToggler} />
         <AppRouter />
       </div>
     </ThemeProvider>

@@ -21,4 +21,8 @@ export const GlobalStyles = createGlobalStyle`
   a {
     color: ${({ theme }) => theme.anchor}
   }
+
+  hr {
+    display:  ${({ theme }) => theme.hr}
+  }
   `;

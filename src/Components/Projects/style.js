@@ -35,7 +35,7 @@ export const MainCard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 1rem;
   text-align: center;
-  background-color: white;
+  background: ${({ theme }) => theme.cardBackground};
 `;
 
 export const ElementsDiv = styled.div`

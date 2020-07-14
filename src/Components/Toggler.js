@@ -9,6 +9,8 @@ const Button = styled.button`
   cursor: pointer;
   font-size:0.8rem;
   padding: 0.6rem;
+  display: flex;
+  float: right
   }
 `;
 const Toggle = ({ theme, toggleTheme }) => {
