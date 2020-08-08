@@ -17,14 +17,12 @@ const Header = ({ theme, themeToggler }) => {
     "https://i.ibb.co/Z1tmK2m/11206067-848741575218684-6253609628058067417-n.jpg";
   return (
     <div className={"Header-container"}>
-      <div>
-        <Toggle theme={theme} toggleTheme={themeToggler} />
         <div>
           <img className="My-picture" src={myPicture} alt="Logo" />
         </div>
         <Title>Yannis Bouacida</Title>
         <SubTitle>Software developer</SubTitle>
-      </div>
+        <Toggle theme={theme} toggleTheme={themeToggler} />
     </div>
   );
 };
