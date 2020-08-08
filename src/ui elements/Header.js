@@ -1,41 +1,30 @@
 import React from "react";
-import "../css/Header.css";
+import styled from "styled-components";
+import Toggle from "../Components/Toggler";
 
-class Header extends React.Component {
-  state = {
-    backgroundColor: false
-  };
+export const Title = styled.h1`
+  font-weight: 700;
+  color: white;
+`;
 
-  switchBackground = () => {
-    this.setState({
-      backgroundColor: !this.state.backgroundColor
-    });
-  };
+export const SubTitle = styled.h2`
+  font-weight: 400;
+  color: white;
+`;
 
-  render() {
-    return (
-      <div
-        className={
-          this.state.backgroundColor
-            ? "Header-container_black"
-            : "Header-container_blue"
-        }
-      >
+const Header = ({ theme, themeToggler }) => {
+  const myPicture =
+    "https://i.ibb.co/Z1tmK2m/11206067-848741575218684-6253609628058067417-n.jpg";
+  return (
+    <div className={"Header-container"}>
         <div>
-          <div className={"Picture-container"}>
-            <img
-              onClick={this.switchBackground}
-              className="My-picture"
-              src="https://i.ibb.co/Z1tmK2m/11206067-848741575218684-6253609628058067417-n.jpg"
-              alt="Logo"
-            />
-          </div>
-          <h1>Yannis Bouacida</h1>
-          <h2>Software developer</h2>
+          <img className="My-picture" src={myPicture} alt="Logo" />
         </div>
-      </div>
-    );
-  }
-}
+        <Title>Yannis Bouacida</Title>
+        <SubTitle>Software developer</SubTitle>
+        <Toggle theme={theme} toggleTheme={themeToggler} />
+    </div>
+  );
+};
 
 export default Header;
