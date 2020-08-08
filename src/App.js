@@ -7,6 +7,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./Components/GlobalStyle";
 import { lightTheme, darkTheme } from "./Components/Themes";
 import { useDarkMode } from "./hooks/useDarkMode";
+import Footer from "./ui elements/Footer"
 
 const App = () => {
   const [theme, themeToggler] = useDarkMode();
@@ -19,6 +20,7 @@ const App = () => {
       <div>
         <Header theme={theme} themeToggler={themeToggler} />
         <AppRouter />
+        <Footer />
       </div>
     </ThemeProvider>
   );

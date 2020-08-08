@@ -1,12 +1,17 @@
 import React from "react";
-import Footer from '../ui elements/Footer'
-import "../css/About.css";
+import styled from "styled-components";
+
+const Container = styled.div`
+  text-align: center;
+  padding: 20px 20px 0 20px;
+  font-size: 1.2em;
+`;
 
 const About = () => {
   return (
-    <div>
+    <>
       <hr className="style-eight" />
-      <div className="about-container">
+      <Container>
         <p>
           Hello! My name is Yannis and i'm a software developer based in
           Stockholm.
@@ -23,9 +28,8 @@ const About = () => {
           I'm originally from Antibes, south of France and moved to Stockholm
           January 2014.
         </p>
-      </div>
-      <Footer />
-    </div>
+      </Container>
+    </>
   );
 };
 

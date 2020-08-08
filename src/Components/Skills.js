@@ -4,7 +4,6 @@ import "../css/Skills.css";
 const Skills = () => {
   return (
     <div>
-      <hr className="style-eight" />
       <div className="project-container">
         <div className="front-end">
           <p className="front-end-p">Front-End:</p>
